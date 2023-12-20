@@ -12,3 +12,7 @@ astro dev init
 
 # Start the Airflow Server 
 astro dev start
+
+# Using Astro SDK for loading the data to BQ 
+
+# After the first load is done, use SODA to do Data Quality Checks
