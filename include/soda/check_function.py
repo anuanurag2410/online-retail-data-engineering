@@ -3,7 +3,7 @@ def check(scan_name, checks_subpath=None, data_source='retail', project_root='in
     from soda.scan import Scan
 
     print('Running Soda Scan ...')
-    config_file = f'{project_root}/soda/configuration.yml'
+    config_file = f'{project_root}/soda/configuration.yaml'
     checks_path = f'{project_root}/soda/checks'
 
     if checks_subpath:
