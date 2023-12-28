@@ -16,3 +16,6 @@ astro dev start
 # Using Astro SDK for loading the data to BQ 
 
 # After the first load is done, use SODA to do Data Quality Checks
+
+# Run command to check if the airflow server shows adress already in use 
+sudo lsof -i :5432

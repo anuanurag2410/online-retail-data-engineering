@@ -56,5 +56,6 @@ def retail():
         from include.soda.check_function import check
 
         return check(scan_name,checks_subpath)
+    check_load()
     
 retail()
