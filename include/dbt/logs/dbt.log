@@ -1,0 +1,44 @@
+[0m06:49:40.571121 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff89de05d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff8a102350>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff89fb1390>]}
+
+
+============================== 06:49:40.574340 | 18e8f93d-3b84-4fc8-85cb-86b39e8f2e47 ==============================
+[0m06:49:40.574340 [info ] [MainThread]: Running with dbt=1.5.9
+[0m06:49:40.574761 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/astro/.dbt', 'version_check': 'True', 'warn_error': 'None', 'log_path': 'logs', 'fail_fast': 'False', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'log_format': 'default', 'introspect': 'True', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m06:49:40.575250 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path /usr/local/airflow/include/dbt/dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m06:49:40.575697 [debug] [MainThread]: Command `dbt deps` failed at 06:49:40.575644 after 0.01 seconds
+[0m06:49:40.575949 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff89f25850>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff89f83ad0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff89f11590>]}
+[0m06:49:40.576212 [debug] [MainThread]: Flushing usage events
+[0m06:50:55.230147 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffffb1f09990>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffffb1f6e550>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffffb20c96d0>]}
+
+
+============================== 06:50:55.233338 | 84115bcc-fde8-4a18-899d-0e7362542b97 ==============================
+[0m06:50:55.233338 [info ] [MainThread]: Running with dbt=1.5.9
+[0m06:50:55.233878 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'debug': 'False', 'log_path': '/usr/local/airflow/include/dbt/logs', 'profiles_dir': '/home/astro/.dbt', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m06:50:55.242749 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '84115bcc-fde8-4a18-899d-0e7362542b97', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffffb1c4e550>]}
+[0m06:50:55.243511 [info ] [MainThread]: Warning: No packages were found in packages.yml
+[0m06:50:55.244012 [debug] [MainThread]: Command `dbt deps` succeeded at 06:50:55.243948 after 0.02 seconds
+[0m06:50:55.244355 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffffb5836fd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffffb1db8f90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffffb1db8cd0>]}
+[0m06:50:55.244757 [debug] [MainThread]: Flushing usage events
+[0m06:51:16.716688 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff96ecf510>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff9695c850>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff9a9774d0>]}
+
+
+============================== 06:51:16.719776 | 539eec08-5abd-4961-88d7-526f3eb84244 ==============================
+[0m06:51:16.719776 [info ] [MainThread]: Running with dbt=1.5.9
+[0m06:51:16.720214 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'profiles_dir': '/usr/local/airflow/include/dbt', 'log_path': '/usr/local/airflow/include/dbt/logs', 'version_check': 'True', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'target_path': 'None', 'send_anonymous_usage_stats': 'True'}
+[0m06:51:16.730686 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '539eec08-5abd-4961-88d7-526f3eb84244', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff97313fd0>]}
+[0m06:51:16.731665 [debug] [MainThread]: Set downloads directory='/tmp/dbt-downloads-ohqsu44q'
+[0m06:51:16.732094 [debug] [MainThread]: Making package index registry request: GET https://hub.getdbt.com/api/v1/index.json
+[0m06:51:16.905332 [debug] [MainThread]: Response from registry index: GET https://hub.getdbt.com/api/v1/index.json 200
+[0m06:51:16.907045 [debug] [MainThread]: Making package registry request: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils.json
+[0m06:51:16.967027 [debug] [MainThread]: Response from registry: GET https://hub.getdbt.com/api/v1/dbt-labs/dbt_utils.json 200
+[0m06:51:16.976132 [info ] [MainThread]: Installing dbt-labs/dbt_utils
+[0m06:51:17.552460 [info ] [MainThread]: Installed from version 1.1.1
+[0m06:51:17.552882 [info ] [MainThread]: Up to date!
+[0m06:51:17.553258 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'package', 'label': '539eec08-5abd-4961-88d7-526f3eb84244', 'property_': 'install', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff97190a10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff97304310>]}
+[0m06:51:17.553841 [debug] [MainThread]: Command `dbt deps` succeeded at 06:51:17.553782 after 0.84 seconds
+[0m06:51:17.554093 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff96d8d7d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff98fa6110>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0xffff9aaf9a50>]}
+[0m06:51:17.554331 [debug] [MainThread]: Flushing usage events
